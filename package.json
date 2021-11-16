@@ -1,15 +1,16 @@
 {
   "name": "fiber",
   "version": "0.0.1",
-  "description": "Typescript implementation for Fiber's Protocol",
+  "description": "Definition of client and server interfaces for fiber project",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc -p ./tsconfig.json & ./node_modules/.bin/webpack",
     "build-ts": "tsc -p ./tsconfig.json"
   },
-  "author": "Dmitry Astafyev (d.astafyev@outlook.com)",
-  "license": "MIT",
+  "author": "Dmitry Astafyev (D.Astafyev@outlook.com)",
+  "license": "Apache-2.0",
+  "readme": "README.md",
   "devDependencies": {
     "@types/node": "^16.0.0",
     "source-map-loader": "^3.0.0",
@@ -23,6 +24,6 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/DmitryAstafyev/fiber.lib.ts"
   }
 }
