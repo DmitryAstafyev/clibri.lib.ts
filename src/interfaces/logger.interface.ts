@@ -20,7 +20,7 @@ const LogLevelLabels = {
 
 export abstract class Logger {
 	public static readonly GLOBAL_ALIAS: string =
-		"___FIBER_GLOBAL_LOGS_ALIAS___";
+		"___clibri_GLOBAL_LOGS_ALIAS___";
 	public static setGlobalLevel(level: ELogLevel) {
 		const global: any = globals();
 		global[Logger.GLOBAL_ALIAS].level = level;
