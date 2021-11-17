@@ -1,6 +1,6 @@
 {
 	"name": "clibri",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Definition of client and server interfaces for clibri project",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -25,5 +25,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/DmitryAstafyev/clibri.lib.ts"
-	}
+	},
+	"files": ["/dist"]
 }
